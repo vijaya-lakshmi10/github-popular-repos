@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.main-container{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.main-heading{
+    font-family: 'Lobster';
+    font-size:48px;
+    color:#0f172a;
+    margin-bottom: 50px;
+}
+.languages-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.repositories-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    max-width: 1140px;
+}
+.failure-view-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.failure-img{
+    height:180px;
+    width:250px;
+}
+.failure-heading{
+    font-family: 'Roboto';
+    font-size:28px;
+    color:#1e293b;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .failure-heading{
+        font-size: 48px;
+    }
+    .failure-img{
+        height: 400px;
+        width:530px;
+    }
+}
